@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* the container that hold every thing */
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+/*  end of the container that hold every thing */
+
+/* the image */
+
+.img-container {
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+.img-container img {
+    width: calc(250px - 20px);
+    height: 220px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* end of the image */
+
+/* the first text */
+
+.first-text-container {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-text-container div {
+    width: 180px;
+}
+
+/* end of the first text */
+
+/* the second text  */
+
+.second-text-container {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: -20px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.second-text-container div {
+    width: 180px;
+    font-size: 11px;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+/* end of the second text  */
+
+/* this is the text that show the authour of the chalenge and my name  */
+
+.attribution {
+    height: 15px;
+    font-size: 11px;
+    position: absolute;
+    top: calc(100% - 15px);
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* end :) */
